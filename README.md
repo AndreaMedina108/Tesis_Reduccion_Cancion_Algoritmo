@@ -45,7 +45,7 @@ Tesis_Reduccion_Cancion_Algoritmo/
 
 1. **Clonar el repositorio y entrar a la carpeta del proyecto:**
    ```bash
-   git clone [https://github.com/](https://github.com/)<TU_USUARIO>/Tesis_Reduccion_Cancion_Algoritmo.git
+   git clone [https://github.com/](https://github.com/)AndreaMedina108/Tesis_Reduccion_Cancion_Algoritmo.git
    cd Tesis_Reduccion_Cancion_Algoritmo
    ```
 
