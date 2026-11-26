@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tesis-reduccion-cancion-algoritmo"
+version = "0.1.0"
+description = "Reducción estadística de partituras polifónicas controlada por dificultad de ejecución (basado en Nakamura & Yoshii, 2018)."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mido>=1.3.2",
+    "pandas>=2.2.0",
+    "matplotlib>=3.8.0",
+    "numpy>=1.26.0",
+    "ipykernel>=6.29.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]

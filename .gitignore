@@ -1,0 +1,24 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Variables de entorno locales
+.env
+
+# Caché y compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Archivos del sistema operativo y editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
